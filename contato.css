@@ -1,0 +1,78 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #efefef;
+  font-family: sans-serif;
+}
+
+.contact-box 
+{
+ width: 0px;
+  background-color: #80bdff;
+  box-shadow: 0 0 20px 0 #9ee2ff;
+  top: 50%;
+  left: 68%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+
+form{
+margin: 35px;
+}
+
+.input-field{
+
+width: 400px;
+height: 40px;
+margin-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid #000000;
+border-radius: 14px;
+outline: none;
+}
+
+.textarea-field{
+height: 150px;
+padding-top: 10px;
+
+}
+
+.btn {
+
+  border-radius: 20px;
+  color: #efefef;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #529ac7;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.assistente {
+   width: 80%;
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-100%, -40%);
+}
+.assistente1 {
+   width: 12%;
+  position: absolute;
+  top: 14%;
+  left: 86.8%;
+  transform: translate(-100%, -40%);
+}
+.assistente2 {
+   width: 20%;
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-100%, -40%);
+}

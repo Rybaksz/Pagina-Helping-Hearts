@@ -1,0 +1,23 @@
+.assistente {
+ 
+  right: 35%;
+  width: 60%;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin #020309 solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.assistente1 {
+  right: 35%;
+  width: 50%;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin #020309 solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+

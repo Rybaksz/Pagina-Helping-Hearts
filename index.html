@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar</title>
+  <link rel="stylesheet" href="style.css" />
+  <!--- CODIGO BAGUNÇADO MERMO -->
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="/">Helping Hearts</a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="Sobre.html">Sobre</a></li>
+        <li><a href="Projetos.html">Projetos</a></li>
+        <li><a href="Contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main></main>
+</body>
+
+
+<head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: linear-gradient(45deg, blue, cyan);
+
+
+    }
+
+    div {
+      background-color: rgba(0, 0, 0, 0.9);
+      position: absolute;
+      top: 50%;
+      left: 75%;
+      transform: translate(-5%, -50%);
+      padding: 80px;
+      border-radius: 20px;
+      color: #ffff;
+    }
+
+    input {
+      padding: 15px;
+      border: none;
+      outline: none;
+      font: size;
+      15px;
+
+    }
+
+    button {
+      background-color: white;
+      border: none;
+      padding: 15px;
+      width: 100%;
+      border-radius: 10px;
+      color: grey;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #A9A9A9;
+
+
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    form {
+      width: 300px;
+      margin: 100px auto;
+      text-align: center;
+    }
+
+    input {
+      display: block;
+      margin: 50px auto;
+      width: 300px;
+      height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <head>
+
+  </head>
+  <div>
+    <form>
+
+      <h3>Login</h3>
+      <input type="text" placeholder="Login" id="login">
+      <input type="password" placeholder="Senha" id="senha">
+      <input type="submit" onclick="logar(); return false">
+      
+ <a href="cadastro.html" > Clique para aqui para se cadastrar </a>
+      <body>
+        
+      </body>
+       
+       
+       
+      
+
+    </form>
+
+
+    <script>
+
+
+      function logar() {
+
+        var login = document.getElementById('login').value;
+        var senha = document.getElementById('senha').value;
+
+        if (login == "admin" && senha == "admin") {
+          alert('Sucesso');
+          location.href = "home.html";
+        } else {
+          alert('Usuario ou senha incorretos');
+        }
+
+      }
+
+    </script>
+
+
+
+  </div>
+</body>
+
+<head>
+  <img src="high-five-animate.svg" class="assistente" width="80%" height="80%">
+  <img src="Capturar-removebg-preview.png" class="assistente1" width="%" height="%">
+  <img src="logo3-removebg-preview-removebg-preview.png" class="assistente2" width="%" height="%">
+</head>
+
+</html>
