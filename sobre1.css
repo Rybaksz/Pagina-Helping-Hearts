@@ -50,7 +50,7 @@
 	background-color: #3d3d3d;
 	padding:12px 40px;
 	text-decoration: none;
-	color:#fff;
+	color: #ffff;
 	font-size: 25px;
 	letter-spacing: 1.5px;
 }
@@ -108,3 +108,42 @@
 }
 
 }
+.qmleuecorno{
+color: #fff;
+  
+}
+
+.qmleucorno
+{
+  color: #fff;
+}
+.qmleuecorno2{
+  color: #fff
+}
+.assistente2 {
+   width: 20%;
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-100%, -40%);
+}
+.textino{
+  width: 20%;
+  position: absolute;
+  top: 96%;
+  left: 27.2%;
+  transform: translate(-100%, -40%);
+  color: #fff;
+  text-align: center;
+  
+}
+
+
+.assistente3 {
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  left: 100%;
+  transform: translate(-100%, -40%);
+}
+  

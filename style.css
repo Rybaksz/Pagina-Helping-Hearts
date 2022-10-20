@@ -144,3 +144,14 @@ main {
   list-style: none;
   display: flex;
 }
+
+.textino{
+  width: 20%;
+  position: absolute;
+  top: 96%;
+  left: 26.2%;
+  transform: translate(-100%, -40%);
+  color: #fff;
+  text-align: center;
+  
+}

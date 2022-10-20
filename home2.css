@@ -55,14 +55,14 @@
 	letter-spacing: 1.5px;
 }
 .content-section .content .button a:hover{
-	background-color: #a52a2a;
+	background-color: #;
 	color:#fff;
 }
 .content-section .social{
 	margin: 40px 40px;
 }
 .content-section .social i{
-	color:#a52a2a;
+	color: #;
 	font-size: 30px;
 	padding:0px 10px;
 }
@@ -108,3 +108,4 @@
 }
 
 }
+
